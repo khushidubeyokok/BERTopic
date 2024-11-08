@@ -93,6 +93,11 @@ We generated visualizations to explore topic distributions and hierarchical stru
 ## Conclusion
 This project successfully applied BERTopic to uncover meaningful topics within a research paper dataset. By refining the topic model parameters and using targeted preprocessing, we achieved a balance between topic granularity and interpretability. This tool can be valuable for researchers to quickly identify relevant areas and explore trends in scientific literature :)
 
+## Potential Applications
+- **Literature Review Automation**: Assisting researchers in quickly identifying relevant papers based on thematic clusters.
+- **Trend Analysis**: Monitoring the evolution of research topics over time to identify emerging areas of interest.
+- **Recommendation Systems**: Suggesting related papers or topics to researchers based on their areas of interest.
+
 ## Future Work
 - **Parameter Optimization**: Experiment with other sentence transformers for potentially finer-grained topic distinctions.
 - **Outlier Analysis**: Develop a more robust method to handle outliers, potentially enriching topic coherence.
