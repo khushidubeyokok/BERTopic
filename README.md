@@ -108,7 +108,9 @@ Our additional [Practical_Application notebook](https://colab.research.google.co
 
 In this notebook, users can:
 - Analyze monthly publication frequencies for specific topics by entering a topic number.
-- Visualize research trends by month to identify periods with high research activity in specific topics.
+- Provide insights on how certain topics gained popularity over time, enabling researchers to identify hot topics in their field.
+- Enable users to track progress in specific research areas, fostering data-driven decisions for future work.
+- Suggest areas where more research might be needed or where emerging topics are gaining attention.
 
 This analysis, based on the `titles_topics_probabilities.csv` and publication dates from our original dataset, offers deeper insights into the temporal patterns of research publications.
 
