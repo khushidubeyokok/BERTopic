@@ -25,7 +25,6 @@ I selected the [neuralwork/arxiver](https://huggingface.co/datasets/neuralwork/a
 To prepare the dataset for topic modeling, several preprocessing steps are implemented:
 1. **Tokenization and Lemmatization**: Abstracts were tokenized and lemmatized for consistency.
 2. **Stop Words and Unwanted Tokens Removal**: Removed common stop words, numbers, and other irrelevant content.
-3. **Noise Reduction**: Further cleaning was performed to enhance clustering accuracy.
 
 ## Model Configuration
 The **BERTopic** model was set up with the following parameters:
@@ -60,7 +59,7 @@ topic_model = BERTopic(
 
 ## Results and Analysis
 
-After running the **BERTopic** model, I identified around **108 topics**. Here’s a sample of some of the topics that were uncovered:
+After running the **BERTopic** model, **108 topics** were identified. Here’s a sample of some of the topics that were discovered:
 
 | **Title**                              | **Topic**                  | **Probability** |
 |----------------------------------------|----------------------------|-----------------|
