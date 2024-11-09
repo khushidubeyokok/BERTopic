@@ -101,3 +101,14 @@ This project successfully applied BERTopic to uncover meaningful topics within a
 - **Parameter Optimization**: Experiment with other sentence transformers for potentially finer-grained topic distinctions.
 - **Outlier Analysis**: Develop a more robust method to handle outliers, potentially enriching topic coherence.
 - **Expansion**: Scale the model to larger datasets as computational resources allow.
+
+# Practical Application: Monthly Topic Analysis
+
+Our additional [Practical_Application notebook](https://colab.research.google.com/drive/1LwB-Z0r3hJBwFc7hTv-KeGP3JUbqcwcs?usp=sharing) demonstrates the practical application of topic modeling results.
+
+In this notebook, users can:
+- Analyze monthly publication frequencies for specific topics by entering a topic number.
+- Visualize research trends by month to identify periods with high research activity in specific topics.
+
+This analysis, based on the `titles_topics_probabilities.csv` and publication dates from our original dataset, offers deeper insights into the temporal patterns of research publications.
+
