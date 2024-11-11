@@ -78,12 +78,20 @@ After running the **BERTopic** model, **108 topics** were identified. Here’s a
 We generated visualizations to explore topic distributions and hierarchical structures:
 - **`topic_model.visualize_heatmap()`**
   [Heatmap Visualization](https://raw.githubusercontent.com/khushidubeyokok/BERTopic/refs/heads/main/Visualizations/heatmap.html)
+  ![](https://github.com/user-attachments/assets/8c21f5fe-e2fd-49a3-8a4f-2aedd3df747e)
+
 - **`topic_model.visualize_barchart()`**
   [Barchart Visualization](https://raw.githubusercontent.com/khushidubeyokok/BERTopic/refs/heads/main/Visualizations/barchart.html)
+  ![Screenshot 2024-11-09 002815](https://github.com/user-attachments/assets/15e99096-4b2c-415f-bd5f-db1535c30213)
+
 - **`topic_model.visualize_topics()`**
 [Intertopic Visualization](https://raw.githubusercontent.com/khushidubeyokok/BERTopic/refs/heads/main/Visualizations/intertopic.html)
+![Screenshot 2024-11-09 002841](https://github.com/user-attachments/assets/fc8e238b-3410-4510-a602-e1340f4f6a5b)
+
 - **`topic_model.visualize_hierarchy()`**
 [Hierarchy Visualization](https://raw.githubusercontent.com/khushidubeyokok/BERTopic/refs/heads/main/Visualizations/hierarchy.html)
+![Screenshot 2024-11-09 003004](https://github.com/user-attachments/assets/6d341136-3082-482e-af18-0cb31d5b3b83)
+
 
 
 ## Conclusion
