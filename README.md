@@ -77,16 +77,16 @@ After running the **BERTopic** model, **108 topics** were identified. Here’s a
 ## Visualization
 We generated visualizations to explore topic distributions and hierarchical structures:
 - **`topic_model.visualize_heatmap()`**
-![heatmap](https://github.com/user-attachments/assets/2a4a6e79-2ca7-47ca-af36-3c65da38c7a2)
+![heatmap]([https://github.com/user-attachments/assets/2a4a6e79-2ca7-47ca-af36-3c65da38c7a2](https://raw.githubusercontent.com/khushidubeyokok/BERTopic/refs/heads/main/Visualizations/heatmap.html))
 
 - **`topic_model.visualize_barchart()`**
-![barchart](https://github.com/user-attachments/assets/6f1572d4-03c9-4d44-abcb-a35db39b6180)
+![barchart]([https://github.com/user-attachments/assets/6f1572d4-03c9-4d44-abcb-a35db39b6180](https://raw.githubusercontent.com/khushidubeyokok/BERTopic/refs/heads/main/Visualizations/barchart.html))
 
 - **`topic_model.visualize_topics()`**
-- ![intertopic](https://github.com/user-attachments/assets/2f0241db-618c-4ddb-adcd-30b05baace38)
+- ![intertopic]([https://github.com/user-attachments/assets/2f0241db-618c-4ddb-adcd-30b05baace38](https://raw.githubusercontent.com/khushidubeyokok/BERTopic/refs/heads/main/Visualizations/topics.html))
 
 - **`topic_model.visualize_hierarchy()`**
-![hierarchy](https://github.com/user-attachments/assets/57a55792-3883-493c-b879-ed81690c5b28)
+![hierarchy]([https://github.com/user-attachments/assets/57a55792-3883-493c-b879-ed81690c5b28](https://raw.githubusercontent.com/khushidubeyokok/BERTopic/refs/heads/main/Visualizations/heirarchy.html))
 
 
 ## Conclusion
