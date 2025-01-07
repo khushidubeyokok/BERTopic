@@ -18,7 +18,7 @@ I selected the [neuralwork/arxiver](https://huggingface.co/datasets/neuralwork/a
 
 ### Dataset Details:
 - **Source**: Hugging Face Hub
-- **Content**: Scientific abstracts from different fields . It consists of 63,357 arXiv papers converted to multi-markdown (.mmd) format. It includes original arXiv article IDs, titles, abstracts, authors, publication dates, URLs and corresponding markdown files published between January 2023 and October 2023.
+- **Content**: Scientific abstracts from different fields. It consists of 63,357 arXiv papers converted to multi-markdown (.mmd) format. It includes original arXiv article IDs, titles, abstracts, authors, publication dates, URLs, and corresponding markdown files published between January 2023 and October 2023.
 - **Size**: 63,357 rows
 
 ## Preprocessing
@@ -92,24 +92,10 @@ We generated visualizations to explore topic distributions and hierarchical stru
 [Hierarchy Visualization](https://raw.githubusercontent.com/khushidubeyokok/BERTopic/refs/heads/main/Visualizations/hierarchy.html)
 ![Screenshot 2024-11-09 003004](https://github.com/user-attachments/assets/6d341136-3082-482e-af18-0cb31d5b3b83)
 
+## Practical Applications: 
+### 1.Monthly Topic Analysis
 
-
-## Conclusion
-This project successfully applied BERTopic to uncover meaningful topics within a research paper dataset. By refining the topic model parameters and using targeted preprocessing, we achieved a balance between topic granularity and interpretability. This tool can be valuable for researchers to quickly identify relevant areas and explore trends in scientific literature :)
-
-## Potential Applications
-- **Literature Review Automation**: Assisting researchers in quickly identifying relevant papers based on thematic clusters.
-- **Trend Analysis**: Monitoring the evolution of research topics over time to identify emerging areas of interest.
-- **Recommendation Systems**: Suggesting related papers or topics to researchers based on their areas of interest.
-
-## Future Work
-- **Parameter Optimization**: Experiment with other sentence transformers for potentially finer-grained topic distinctions.
-- **Outlier Analysis**: Develop a more robust method to handle outliers, potentially enriching topic coherence.
-- **Expansion**: Scale the model to larger datasets as computational resources allow.
-
-# Practical Application: Monthly Topic Analysis
-
-Our additional [Practical_Application notebook](https://colab.research.google.com/drive/1LwB-Z0r3hJBwFc7hTv-KeGP3JUbqcwcs?usp=sharing) demonstrates the practical application of topic modeling results.
+[Monthly Topic Analysis notebook](https://github.com/khushidubeyokok/BERTopic/blob/main/1_Monthly_trend_analysis.ipynb) demonstrates the practical application of topic modeling results to analyze monthly publication frequencies of research papers.
 
 In this notebook, users can:
 - Analyze monthly publication frequencies for specific topics by entering a topic number.
@@ -120,4 +106,31 @@ In this notebook, users can:
 ![image](https://github.com/user-attachments/assets/6e109ac8-f098-4d05-b688-f1db09aac19a)
 
 This analysis, based on the `titles_topics_probabilities.csv` and publication dates from our original dataset, offers deeper insights into the temporal patterns of research publications.
+
+### 2.Title vs Abstract Analysis
+
+[Title vs Abstract Analysis](https://github.com/khushidubeyokok/BERTopic/blob/main/2_Title_vs_Abstract_Analysis.ipynb) explores the correlation between research paper titles and abstracts.
+
+In this notebook, users can :
+- Analyze the relationship between titles and their corresponding abstracts to identify patterns in the data.
+- Investigate how well the topics extracted from the abstracts align with the titles of the papers.
+- Use the correlation analysis to improve the coherence of topics and guide future research
+
+  ![Screenshot 2025-01-07 174057](https://github.com/user-attachments/assets/a6cd00af-7172-4b97-9bc3-8ab0457cd5b6)
+  ![Screenshot 2025-01-07 174106](https://github.com/user-attachments/assets/240bec7b-426d-4602-b554-05b8843daa78)
+  ![Screenshot 2025-01-07 174120](https://github.com/user-attachments/assets/a34b711a-a0a0-4f04-9608-bc817b29b123)
+
+  This notebook provides valuable insights into how titles and abstracts might influence each other and contributes to a deeper understanding of topic modeling.
+
+## Conclusion
+This project successfully applied BERTopic to uncover meaningful topics within a research paper dataset. By refining the topic model parameters and using targeted preprocessing, we achieved a balance between topic granularity and interpretability. The practical applications of this project are diverse:
+- **Monthly Topic Analysis**: By tracking topic popularity over time, researchers can identify emerging areas of interest and monitor trends in their field. This feature enables data-driven decisions about where to focus future research efforts.
+- **Correlation Analysis Between Titles and Abstracts**: This analysis helps uncover relationships between paper titles and their corresponding abstracts, improving the coherence of topics and contributing to better topic interpretations.
+Overall, this tool can be valuable for researchers to quickly identify relevant areas, explore trends in scientific literature, and gain deeper insights into the connections between paper titles and abstracts. :)
+
+## Future Work
+- **Parameter Optimization**: Experiment with other sentence transformers for potentially finer-grained topic distinctions.
+- **Outlier Analysis**: Develop a more robust method to handle outliers, potentially enriching topic coherence.
+- **Expansion**: Scale the model to larger datasets as computational resources allow.
+
 
