@@ -116,6 +116,8 @@ In this notebook, users can:
 - Provide insights on how certain topics gained popularity over time, enabling researchers to identify hot topics in their field.
 - Enable users to track progress in specific research areas, fostering data-driven decisions for future work.
 - Suggest areas where more research might be needed or where emerging topics are gaining attention.
+  
+![image](https://github.com/user-attachments/assets/6e109ac8-f098-4d05-b688-f1db09aac19a)
 
 This analysis, based on the `titles_topics_probabilities.csv` and publication dates from our original dataset, offers deeper insights into the temporal patterns of research publications.
 
